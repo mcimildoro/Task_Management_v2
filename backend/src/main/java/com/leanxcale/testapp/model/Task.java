@@ -21,7 +21,7 @@ public class Task {
     private Instant createdAt = Instant.now();
 
     @ManyToOne
-    @JoinColumn(name = "user_id")
+    @JoinColumn(name = "user_id") // foreign key
     @JsonBackReference
     private User user;
 

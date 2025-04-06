@@ -5,5 +5,5 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import java.util.Optional;
 
 public interface UserRepository extends JpaRepository<User, Long> {
-    Optional<User> findByUsername(String username); // “ buscar la tabla users por la columna username y devuelve el resultado si existe.”
+    Optional<User> findByUsername(String username); // “buscar la tabla users por la columna username y devuelve el resultado si existe.”
 }
